@@ -1,14 +1,27 @@
-.. Example documentation master file, created by
-   sphinx-quickstart on Sat Sep 23 20:35:12 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Example's documentation!
-===================================
-
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
 
-   some-feature.md
-   another-feature.md
+   research
+   blog
+
+
+Welcome
+---------
+
+.. _home:
+
+
+Hello! I am a joint postdoctoral research associate for Northern Illinois University's Department of Earth, Atmosphere, and Environment and Argonne National Laboratory's Geospatial Computing, Innovations, and Sensing division. My work focuses on the utilization of high-resolution regional climate simulations to address important weather and climate research questions. I have a strong interest in Python and leveraging distributed computing to efficiently process large climate datasets.
+
+Recent News
+---------
+
+See `the news archive <blog.html>`_ for a complete list of all posts.
+
+.. postlist:: 5
+   :author: Brendan Wallace
+   :date: %Y-%m-%d 
+   :format: {date} - {title}
+   :list-style: none 
+   :excerpts:
